@@ -1,0 +1,112 @@
+ html{
+    height: 100%;
+  width: 100%;
+}
+
+
+.support {
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+#help {
+  font-size: 45px;
+  font-family: League Spartan;
+}
+
+/* Icon-next-label styles */
+.icon-next-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  max-width: 350px;
+}
+
+.icon-next-label img {
+  width: 60px;
+  height: 60px;
+  margin-right: 1rem;
+}
+
+.icon-next-label p {
+  margin-top: 0.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e9e8da;
+}
+
+/* Your support will help GEI styles */
+.support-gei {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  background-color: #fff;
+}
+
+.form-floating {
+  position: relative;
+  width: 100%;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.form-floating>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 1.5rem;
+  overflow: hidden;
+  text-align: start;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  pointer-events: none;
+  border: 0 solid transparent;
+  transform-origin: 0 0;
+  transition: opacity .1s ease-in-out,transform .1s ease-in-out
+}
+
+.donate {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%; 
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+.submitbtn {
+  background-color: #7ED957;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.submitbn:hover {
+  background-color: #45a049;
+}
